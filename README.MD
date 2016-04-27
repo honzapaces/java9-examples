@@ -64,7 +64,7 @@
 
 **JSR** Java Specification request
 * [List of all JSRs](https://www.jcp.org/en/jsr/all)
-##The beyond
+## The beyond
 Following features didn't make the Java 9 cut and are probably planned for Java 10 or later
 * [Lightweight JSON API](http://openjdk.java.net/jeps/198)
 * [JSR 354 - Money and Currency API](http://javamoney.java.net)
