@@ -1,5 +1,62 @@
 # JDK 9 and beyond
-## Glosary
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [JDK 9 and beyond](#jdk-9-and-beyond)
+	- [Glossary](#glossary)
+	- [The beyond](#the-beyond)
+	- [When?](#when)
+	- [What?](#what)
+	- [Where](#where)
+	- [Java REPL (Project Kulla)](#java-repl-project-kulla)
+			- [Example:](#example)
+		- [Resources](#resources)
+	- [JEP 102: Process API Updates](#jep-102-process-api-updates)
+		- [Resources](#resources)
+		- [Java Modularity (Project Jigsaw)](#java-modularity-project-jigsaw)
+		- [Resources](#resources)
+			- [Related JEPs](#related-jeps)
+		- [JEP 280: Indify String Concatenation](#jep-280-indify-string-concatenation)
+			- [One sentence summary](#one-sentence-summary)
+		- [JEP 248: Make G1 the Default Garbage Collector](#jep-248-make-g1-the-default-garbage-collector)
+		- [JEP 214: Remove GC Combinations Deprecated in JDK 8](#jep-214-remove-gc-combinations-deprecated-in-jdk-8)
+		- [JEP 238: Multi-Release JAR Files](#jep-238-multi-release-jar-files)
+		- [JEP 211: Elide Deprecation Warnings on Import Statements](#jep-211-elide-deprecation-warnings-on-import-statements)
+		- [JEP 213: Milling Project Coin](#jep-213-milling-project-coin)
+		- [JEP 223: New Version-String Scheme](#jep-223-new-version-string-scheme)
+		- [JEP 226: UTF-8 Property Files](#jep-226-utf-8-property-files)
+		- [JEP 227: Unicode 7.0](#jep-227-unicode-70)
+		- [JEP 267: Unicode 8.0](#jep-267-unicode-80)
+		- [JEP 229: Create PKCS12 Keystores by Default](#jep-229-create-pkcs12-keystores-by-default)
+		- [JEP 231: Remove Launch-Time JRE Version Selection](#jep-231-remove-launch-time-jre-version-selection)
+		- [JEP 237: Linux/AArch64 Port](#jep-237-linuxaarch64-port)
+		- [JEP 264: Platform Logging API and Service](#jep-264-platform-logging-api-and-service)
+			- [ADD CODE](#add-code)
+		- [JEP 266: More Concurrency Updates](#jep-266-more-concurrency-updates)
+			- [TODO](#todo)
+			- [ADD CODE](#add-code)
+		- [JEP 268: XML Catalogs](#jep-268-xml-catalogs)
+			- [TODO](#todo)
+			- [ADD CODE](#add-code)
+		- [JEP 269: Convenience Factory Methods for Collections](#jep-269-convenience-factory-methods-for-collections)
+			- [TODO](#todo)
+			- [ADD CODE](#add-code)
+			- [Others:](#others)
+			- [JVM logging improvements](#jvm-logging-improvements)
+			- [JVM Internal enhancments](#jvm-internal-enhancments)
+				- [Removed JDK tools](#removed-jdk-tools)
+				- [SSL Improvements](#ssl-improvements)
+				- [JavaDoc imporvements](#javadoc-imporvements)
+				- [Peroformance improvements](#peroformance-improvements)
+				- [Compiler improvements](#compiler-improvements)
+			- [JDK Development and maintainbility improvements](#jdk-development-and-maintainbility-improvements)
+			- [String improvements](#string-improvements)
+			- [To look into](#to-look-into)
+			- [Other others](#other-others)
+
+<!-- /TOC -->
+
+## Glossary
 **JEP** Java Enhancement proposal (Currently JEP process 1 is being proposed to be replaced by JEP 2.0)
 * [JEP List](http://openjdk.java.net/jeps/0)
 * [JEP 1 Process](http://openjdk.java.net/jeps/1)
@@ -8,9 +65,9 @@
 **JSR** Java Specification request
 * [List of all JSRs](https://www.jcp.org/en/jsr/all)
 ##The beyond
-Following features didn't make the Java 9 cut and are probably planned for Java 10 (or later):
-*[Lightweight JSON API](http://openjdk.java.net/jeps/198)
-*[JSR 354 - Money and Currency API](http://javamoney.java.net/)
+Following features didn't make the Java 9 cut and are probably planned for Java 10 or later
+* [Lightweight JSON API](http://openjdk.java.net/jeps/198)
+* [JSR 354 - Money and Currency API](http://javamoney.java.net)
 ## When?
 [Java 9 release countdown](http://www.java9countdown.xyz/)
 ## What?
@@ -21,7 +78,8 @@ Following features didn't make the Java 9 cut and are probably planned for Java 
 ## Where
 Current JDK 9 Early access release:
 https://jdk9.java.net/download/
-## Jave REPL (Project Kulla)
+
+## Java REPL (Project Kulla)
 Run:
 `
 jdk9_path/bin/jshell
@@ -291,14 +349,3 @@ Deserves more research
 * [JEP 265: Marlin Graphics Renderer](http://openjdk.java.net/jeps/265)
 * [JEP 272: Platform-Specific Desktop Features](http://openjdk.java.net/jeps/272)
 ** Fixing no longer availible internal api, seems MacOS related (Task bar etc.)
-
-
-
-
-
-
-
-
-
-
-
